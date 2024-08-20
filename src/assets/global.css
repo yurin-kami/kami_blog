@@ -1,0 +1,9 @@
+.el-tag {
+    &.closable .el-icon-close {
+      vertical-align: middle;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
